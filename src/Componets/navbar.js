@@ -1,15 +1,19 @@
 import React from 'react';
 import './css/navbar.css'
 import { BrowserRouter as Router , Link , Route ,Routes} from 'react-router-dom';
+import kklogo from '../images/kklogo.png'
+
 
 function navbar() {
 
 
     return ( 
+    <body>
     <nav className='nav'>
         <div className='barDiv'>
             <font style={{color:'#fff',fontSize:'30px',fontWeight:'10'}}>KKPHOTOGRAPHY-KE</font>
         </div>
+        
         <div className='linkDiv'>
             <ul>
                 <li><Link   to='/' style={{color:'#fff',textDecoration:'none'}}>HOME</Link></li>
@@ -18,10 +22,10 @@ function navbar() {
                 <li><Link   to='/signin'  style={{color:'#fff',textDecoration:'none'}}>LOGIN</Link></li>
             </ul>
             <div className='btnDiv'>
-                <button className='btn btn-info' style={{backgroundColor: 'rgb(18, 37, 23)'}}>ADMIN</button>
+                <button className='btn btn-success' style={{backgroundColor: 'rgb(18, 37, 23)'}}>ADMIN</button>
             </div>
         </div>
-    </nav> );
+    </nav> </body> );
 }
 
 export default navbar;
