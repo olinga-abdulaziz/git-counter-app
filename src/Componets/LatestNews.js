@@ -53,7 +53,7 @@ function LatestNews() {
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been...
                             </p>
                         </li>
-                        <li data-aos="fade-left">
+                        <li>
                             <div  style={{width:'100%',height:'20px',backgroundColor:'skyblue',marginBottom:'20px'}}></div>
                             <p>
                               Art is the only way to run away without leaving home.

@@ -106,7 +106,10 @@ nav {
     width: 100px;
     align-items: center;
   }
-  .btnDiv {
+  .barDiv{
+    display: none;
+  }
+  .btnDiv{
     display: none;
   }
   .linkDiv ul {
