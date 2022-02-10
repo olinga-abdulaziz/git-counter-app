@@ -12,6 +12,7 @@ import Register from './Pages/register';
 
 function App() {
   return (
+    <section className='appMAin'>
     <Router>
     <Navbar />
         <Routes>
@@ -25,6 +26,8 @@ function App() {
     <Footer />
 
     </Router>
+    </section>
+   
   );
 }
 

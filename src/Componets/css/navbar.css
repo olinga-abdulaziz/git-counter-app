@@ -1,5 +1,5 @@
-nav {
-  width: 100%;
+.nav{
+  width: 100% !important;
   height: auto;
   justify-content: space-between;
   padding: 10px 20px;
@@ -95,23 +95,23 @@ nav {
   font-size: 26px;
 }
 @media only screen and (max-width: 650px) {
-  nav {
-    width: 360px !important;
+  .nav{
+    width: 100% !important;
     height: auto;
     padding: 10px 20px;
     align-items: center;
     display: flex;
-    justify-content: flex-start;
+    justify-content: start;
   }
   .linkDiv {
-    width: 100px;
+    width: auto;
     align-items: center;
   }
   .barDiv{
     display: none;
   }
   .btnDiv{
-    display: none;
+    display: block;
   }
   .linkDiv ul {
     display: flex;
