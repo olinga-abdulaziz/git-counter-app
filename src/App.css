@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+section{
+  height: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.topmain {
+  height: 100vh;
+  width: 100% !important;
+  background-position: center;
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headerContent {
+  position: absolute;
+  top: 35%;
+  right: 8%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.headerContent h1{
   color: white;
+  font-family: 'Baloo Bhaijaan 2', cursive;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.headerContent p{
+    width: 110vh;
+    margin-top: 20px;
+    color: aliceblue;
+    font-family: 'Baloo Bhaijaan 2', cursive;
   }
-  to {
-    transform: rotate(360deg);
+  .headerContent div{
+      margin-top: 20px;
   }
-}
+  .main{
+      width:95%;
+      margin: auto;
+      height:auto;
+  }
+
+  
+  @media only screen and (max-width:650px){
+    .topmain{
+      height: 100vh;
+      width: 100% !important;
+      background-position: center;
+      background-size: cover;
+    }
+    .main{
+      width:100%;
+      margin: auto;
+      height:auto;
+  }
+  .headerContent{
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    right: 0%;
+  }
+  .headerContent h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+  }
+  .headerContent p{
+      width: 100%;
+      margin-top: 20px;
+      text-align: center;
+      flex-wrap: wrap;
+      color: aliceblue;
+      font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+    .btnbtnDv{
+      width: 35vh;
+      margin-left: 45px;
+    }
+    
+  }

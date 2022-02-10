@@ -1,0 +1,55 @@
+.bottomDiv{
+    width: 100%;
+    height: auto;
+    background-color: rgb(13, 98, 126);
+    margin-top: 30px;
+    display: flex;
+    padding: 20px;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.b1{
+    width: 45%;
+    height: 100%;
+    padding-right: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.b2{
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.div i{
+    margin-left: 20px;
+}
+.form{
+    display: flex;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .bottomDiv{
+        width: 100%;
+        height: auto;
+        background-color: rgb(13, 98, 126);
+        margin-top: 30px;
+        display: block;
+        padding: 20px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+    .b1{
+        width: 100%;
+        height: 100%;
+        padding-right: 20px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+    .b2{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+}

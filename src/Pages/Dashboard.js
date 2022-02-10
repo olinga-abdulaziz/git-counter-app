@@ -10,17 +10,10 @@ import Contact from './Pages/Contact';
 import Register from './Pages/register';
 
 
-function App() {
+function Dashboard() {
   return (
     <Router>
-    <Navbar />
-        <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/about"  element={<About />} />
-          <Route path="/contact"  element={<Contact />} />
-          <Route path="/signin"  element={<Signin />} />
-          <Route path="/register"  element={<Register />} />
-        </Routes>   
+        
     <Bottom />
     <Footer />
 
@@ -28,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Dashboard;

@@ -1,0 +1,44 @@
+.content {
+    margin-top: 5px;
+  }
+  .top{
+      width: 100%;
+      height: auto;
+  }
+  .top h1{
+    font-weight: 10;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 30px;
+  }
+  .top p{
+      width: 60%;
+      color: gray;
+      font-family: 'Baloo Bhaijaan 2', cursive;
+  }
+  .bottom{
+      width: 100%;
+      height: auto;
+  }
+  .bottom ul{
+      display: flex;
+      padding: 0;
+      flex-direction: row;
+  }
+  .bottom ul li{
+      list-style: none;
+      margin-left: 10px;
+      height: 30vh;
+      width: 25%;
+  }
+  @media only screen and (max-width: 650px) {
+    .bottom ul{
+        display: block;
+        padding: 0;
+    }
+    .bottom ul li{
+        list-style: none;
+        height: 30vh;
+        width: 90%;
+    }
+    
+}

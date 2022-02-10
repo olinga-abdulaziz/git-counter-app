@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.bodyBox{
+    width: 50%;
+    height: 100%;
+    padding-top: 30px;
+}
+.imgBox{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    box-shadow: 6px 10px 20px gray;
+}
+.imgBox img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.talkDiv h2{
+    color: white;
+}
+.talkDiv p{
+    width: 60%;
+    color: rgb(76, 78, 78);
+}
+@media only screen and (max-width: 650px) {
+    .bodyBox{
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+    }
+}

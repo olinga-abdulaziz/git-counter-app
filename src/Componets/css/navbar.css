@@ -1,0 +1,118 @@
+nav {
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(13, 98, 126);
+  z-index: 999;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.fa-bars{
+  cursor: pointer;
+}
+.barDiv {
+  padding-left: 20px; 
+}
+.linkDiv {
+  display: flex;
+}
+.linkDiv button {
+  margin-left: 10px;
+}
+
+.barDiv i {
+  color: white;
+}
+.linkDiv ul {
+  display: flex;
+  vertical-align: baseline;
+  margin-top: 10px;
+}
+
+.linkDiv ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+  color: white;
+}
+.linkDiv ul li link {
+  color: white;
+  
+}
+.fa {
+  font-size: 30px;
+}
+
+
+.showsideBar{
+  width: 40vh;
+  background-color:rgb(13, 98, 126);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  overflow: hidden;
+  transition: 1s width ease;
+
+}
+.hideSideBar{
+  width: 0px;
+  transition: 1s width ease;
+  overflow: hidden;
+}
+.tosideBar{
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+.tosideBar font{
+  font-size: 20px;
+}
+.tosideBar span{
+  font-size: 30px;
+}
+.sideContent{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.sidebox{
+  height: auto;
+  padding-left: 20px;
+  padding-top: 20vh !important;
+}
+.sidebox  h2{
+  color: white;
+  font-weight: 20;
+  text-align: left;
+  font-size: 26px;
+}
+@media only screen and (max-width: 650px) {
+  nav {
+    width: 360px !important;
+    height: auto;
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .linkDiv {
+    width: 100px;
+    align-items: center;
+  }
+  .btnDiv {
+    display: none;
+  }
+  .linkDiv ul {
+    display: flex;
+    width: auto;
+    padding: 0;
+    align-items: center;
+  }
+}

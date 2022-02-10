@@ -1,0 +1,13 @@
+header{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.container{
+    height: auto;
+    padding-top: 10vh;
+}
+.aboutTXT{
+    font-weight: 10;
+}

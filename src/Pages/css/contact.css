@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 3vh;
+    margin-bottom: 70px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-shadow: 10px 15px 20px gray;
+}
+.div1{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(13, 98, 126);
+    color: white;
+    padding: 50px 20px;
+}
+.div1 center h1{
+    font-weight: 10;
+}
+.div1 div i{
+    margin-left: 20px;
+}
+.div2{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.form{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+@media only screen and (max-width:650px) {
+    .content{
+        width: 100%;
+        height: auto;
+        display: block;
+        box-shadow: 10px 15px 20px gray;
+    }
+    .div1{
+        width: 100%;
+        height: auto;
+    }
+    .div2{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
