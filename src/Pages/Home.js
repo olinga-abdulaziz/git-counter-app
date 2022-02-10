@@ -15,7 +15,7 @@ function Home() {
     
     return(
        <main>
-           <header className='topmain' data-aos="fade-up" style={{backgroundImage:`url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDwLQAcPwx60z0VAFcquIF5jXgHm0yX74DXQ&usqp=CAU)`}}>
+           <header className='topmain' data-aos="fade-up" style={{backgroundImage:`url(https://the.ismaili/sites/default/files/photography.jpg)`}}>
             <article className='headerContent'>
                 <h1 className='kk'  data-aos="fade-up">kkphotography ke</h1>
                 <h1 className='wecare'  data-aos="fade-up" data-aos-delay='300'>We capture memories forever</h1>

@@ -18,7 +18,7 @@ function navbar() {
                 <li><Link   to='/signin'  style={{color:'#fff',textDecoration:'none'}}>LOGIN</Link></li>
             </ul>
             <div className='btnDiv'>
-                <button className='btn btn-info'>ADMIN</button>
+                <button className='btn btn-info' style={{backgroundColor: 'rgb(18, 37, 23)'}}>ADMIN</button>
             </div>
         </div>
     </nav> );
