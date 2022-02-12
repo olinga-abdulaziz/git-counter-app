@@ -1,7 +1,7 @@
 .bottomDiv{
     width: 100%;
     height: auto;
-    background-color: rgb(13, 98, 126);
+    background-color: rgb(18, 37, 23);
     margin-top: 30px;
     display: flex;
     padding: 20px;
@@ -34,7 +34,7 @@
     .bottomDiv{
         width: 100%;
         height: auto;
-        background-color: rgb(13, 98, 126);
+        background-color: rgb(18, 37, 23);
         margin-top: 30px;
         display: block;
         padding: 20px;

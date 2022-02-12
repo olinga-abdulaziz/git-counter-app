@@ -1,4 +1,4 @@
-.nav{
+.navBar{
   width: 100% !important;
   height: auto;
   justify-content: space-between;
@@ -8,14 +8,15 @@
   top: 0;
   background-color: rgb(18, 37, 23);
   z-index: 999;
-  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  display: flex;
 }
 
-.fa-bars{
+.fa-bars {
   cursor: pointer;
 }
 .barDiv {
-  padding-left: 20px; 
+  padding-left: 20px;
 }
 .linkDiv {
   display: flex;
@@ -41,61 +42,13 @@
 }
 .linkDiv ul li link {
   color: white;
-  
 }
 .fa {
   font-size: 30px;
 }
 
-
-.showsideBar{
-  width: 40vh;
-  background-color:rgb(13, 98, 126);
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  overflow: hidden;
-  transition: 1s width ease;
-
-}
-.hideSideBar{
-  width: 0px;
-  transition: 1s width ease;
-  overflow: hidden;
-}
-.tosideBar{
-  padding: 10px 10px;
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  align-items: center;
-}
-.tosideBar font{
-  font-size: 20px;
-}
-.tosideBar span{
-  font-size: 30px;
-}
-.sideContent{
-  width: 100%;
-  height: 100%;
-  align-items: center;
-}
-.sidebox{
-  height: auto;
-  padding-left: 20px;
-  padding-top: 20vh !important;
-}
-.sidebox  h2{
-  color: white;
-  font-weight: 20;
-  text-align: left;
-  font-size: 26px;
-}
 @media only screen and (max-width: 650px) {
-  .nav{
+  .navBar{
     width: 100% !important;
     height: auto;
     padding: 10px 20px;
@@ -107,10 +60,10 @@
     width: auto;
     align-items: center;
   }
-  .barDiv{
+  .barDiv {
     display: none;
   }
-  .btnDiv{
+  .btnDiv {
     display: block;
   }
   .linkDiv ul {

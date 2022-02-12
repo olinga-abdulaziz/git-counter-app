@@ -27,7 +27,7 @@ function LatestNews() {
                  <div className={latestnews.bottom}>
                     <ul>
                         <li data-aos="fade-left">
-                            <div  style={{width:'100%',height:'20px',backgroundColor:'skyblue',marginBottom:'20px'}}></div>
+                            <div  style={{width:'100%',height:'20px',backgroundColor:'rgb(18, 37, 23)',marginBottom:'20px'}}></div>
                             <p>
                               Art is the only way to run away without leaving home.
                             </p>
@@ -36,7 +36,7 @@ function LatestNews() {
                             </p>
                         </li>
                         <li data-aos="fade-left">
-                            <div  style={{width:'100%',height:'20px',backgroundColor:'skyblue',marginBottom:'20px'}}></div>
+                            <div  style={{width:'100%',height:'20px',backgroundColor:'rgb(18, 37, 23)',marginBottom:'20px'}}></div>
                             <p>
                               Art is the only way to run away without leaving home.
                             </p>
@@ -45,7 +45,7 @@ function LatestNews() {
                             </p>
                         </li>
                         <li data-aos="fade-left">
-                            <div  style={{width:'100%',height:'20px',backgroundColor:'skyblue',marginBottom:'20px'}}></div>
+                            <div  style={{width:'100%',height:'20px',backgroundColor:'rgb(18, 37, 23)',marginBottom:'20px'}}></div>
                             <p>
                               Art is the only way to run away without leaving home.
                             </p>
@@ -54,7 +54,7 @@ function LatestNews() {
                             </p>
                         </li>
                         <li>
-                            <div  style={{width:'100%',height:'20px',backgroundColor:'skyblue',marginBottom:'20px'}}></div>
+                            <div  style={{width:'100%',height:'20px',backgroundColor:'rgb(18, 37, 23)',marginBottom:'20px'}}></div>
                             <p>
                               Art is the only way to run away without leaving home.
                             </p>
@@ -65,7 +65,7 @@ function LatestNews() {
                     </ul>
 
                     <center>
-                        <button className='btn btn-info'>Read more ...</button>
+                        <button className='btn btn-success' style={{backgroundColor:'rgb(18, 37, 23)'}}>Read more ...</button>
                     </center>
                     <br />
                  </div>
