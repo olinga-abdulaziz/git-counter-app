@@ -8,8 +8,8 @@ function navbar() {
 
 
     return ( 
-    <body>
-    <nav className='nav'>
+    <body className='navBody'>
+    <nav className='navBar'>
         <div className='barDiv'>
             <font style={{color:'#fff',fontSize:'30px',fontWeight:'10'}}>KKPHOTOGRAPHY-KE</font>
         </div>
