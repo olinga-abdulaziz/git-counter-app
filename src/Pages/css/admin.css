@@ -1,0 +1,28 @@
+.Adcontainer{
+    height: 100vh;
+    width: 100%;
+    margin-top: 10vh;
+}
+.adminBox{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.ad1{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width:650px) {
+    .adminBox{
+        width: 90%;
+        height: 100%;
+        display: block;
+    }
+    .ad1{
+        width: 100%;
+        height: 100%;
+    }
+
+}

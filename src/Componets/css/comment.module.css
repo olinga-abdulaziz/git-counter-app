@@ -6,20 +6,34 @@
     margin-top: 10px;
     padding-left: 20px;
 }
-.b1{
+.patbox{
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.patbox div{
     width: 50%;
+    height: 80%;
+    margin-left: 20px;
+}
+.patbox div div{
+    width: 100%;
     height: 100%;
+    justify-content: center;
+    marker-start: 10px;
 }
-.commentTXT{
-    font-size: 20px;
+.patbox div img{
+    width: 100%;
+    height: 75%;
+    border-radius: 45%;
 }
-.b1 h2{
-    margin-bottom: 20px;
-    color: rgb(68, 67, 67);
-    font-weight: 10;
-}
+
+
 .b2{
-    width: 50%;
+    width: 100%;
     height: 100%;
     align-items: center;
 }
@@ -31,23 +45,7 @@
     border-radius: 20px;
     margin-bottom: 10px;
 }
-.article header strong{
-    font-size: 10px;
-}
-.article main p{
-    color: rgb(97, 59, 59);
-    font-size: 10px;
-}
-.form{
-    width: 80%;
-    height: 74vh;
-    border-radius: 20px;
-    background-color: lightblue;
-    margin-top: 45px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: -10px 10px 26px gray;
-}
+
 
 @media only screen and (max-width: 650px) {
     .content{
@@ -58,20 +56,30 @@
         margin: auto;
         margin-top: 20px;
     }
-    .form{
-        width: 98%;
-    }
-    .b1{
-        width: 100%;
-        height: 100%;
-    }
-    .b1 h2{
-        margin-bottom: 20px;
-        color: rgb(68, 67, 67);
-    }
     .b2{
         width: 100%;
         height: 100%;
         align-items: center;
     }
+    .patbox{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .patbox div{
+        width: 50%;
+        height: 80%;
+        margin-left: 20px;
+        margin: auto;
+    }
+    .patbox div div{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        marker-start: 10px;
+    }
+    
 }

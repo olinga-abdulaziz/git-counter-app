@@ -17,7 +17,8 @@ function Signin() {
                        <input type='checkbox' className='form-check-input'/> <small>Remember password</small>
                        </div>
                        <br />
-                       <button className='btn btn-info' style={{width:'100%'}}>Login</button>
+                       <button className='btn btn-info' style={{width:'100%',backgroundColor:'rgb(18, 37, 23)'}}>Login</button>
+                       <Link to='/admin' >Go to admin</Link>
                        <div style={{marginTop:'10px'}}>
                            <p>you dont have an account <Link to='/register'>Register</Link> </p>
                        </div>
