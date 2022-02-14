@@ -10,11 +10,12 @@ import Aos from 'aos'
 import "aos/dist/aos.css";
 import { BrowserRouter as Router , Link , Route ,Routes} from 'react-router-dom';
 import './css/home.css'
+import Dashboard from './Dashboard'
 
 function Home() {
     
     return(
-       <main className='shaMAin'>
+       <div className='shaMAin'>
            <header className='topmain' data-aos="fade-up" style={{backgroundImage:`url(https://the.ismaili/sites/default/files/photography.jpg)`}}>
             <article className='headerContent'>
                 <h1 className='kk'  data-aos="fade-up">kkphotography ke</h1>
@@ -23,19 +24,19 @@ function Home() {
                 
                 <div className='btnbtnDv'>
                 <div className='btnGroup' data-aos="zoom-out">
-                    <a href='#latestpost'><button className='btn btn-success btnHome'>GET STARTED</button></a>  <br /><br />
-                    <Link to='/contact' className='btn btn-primary btnHome' >GET INTOUCH</Link> 
+                    <Link to='/dashboard' className='btn btn-success btnHome'>GET STARTED</Link>  <br /><br />
+                    <Link to='/contact' className='btn btn-light btnHome' >GET INTOUCH</Link> 
                 </div>
                 </div>
             </article>
           </header>
-            <main className='main'>
+            <div className='main'>
               <LatestPost id='latestpost'/>
               <LatestNews />
               <Profile />
               <Comment />
-            </main>
-       </main>
+            </div>
+       </div>
     )
 }
 

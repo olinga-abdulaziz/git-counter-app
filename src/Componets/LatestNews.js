@@ -26,8 +26,8 @@ function LatestNews() {
                  </div>
                  <div className={latestnews.bottom}>
                     <ul>
-                        <li data-aos="fade-left">
-                            <div  style={{width:'100%',height:'20px',backgroundColor:'rgb(18, 37, 23)',marginBottom:'20px'}}></div>
+                        <li data-aos="fade-top">
+                            <div  className={latestnews.bar}></div>
                             <p>
                               Art is the only way to run away without leaving home.
                             </p>
@@ -35,8 +35,8 @@ function LatestNews() {
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been...
                             </p>
                         </li>
-                        <li data-aos="fade-left">
-                            <div  style={{width:'100%',height:'20px',backgroundColor:'rgb(18, 37, 23)',marginBottom:'20px'}}></div>
+                        <li data-aos="fade-top">
+                            <div  className={latestnews.bar}></div>
                             <p>
                               Art is the only way to run away without leaving home.
                             </p>
@@ -44,8 +44,8 @@ function LatestNews() {
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been...
                             </p>
                         </li>
-                        <li data-aos="fade-left">
-                            <div  style={{width:'100%',height:'20px',backgroundColor:'rgb(18, 37, 23)',marginBottom:'20px'}}></div>
+                        <li data-aos="fade-top">
+                            <div  className={latestnews.bar}></div>
                             <p>
                               Art is the only way to run away without leaving home.
                             </p>
@@ -53,15 +53,8 @@ function LatestNews() {
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been...
                             </p>
                         </li>
-                        <li>
-                            <div  style={{width:'100%',height:'20px',backgroundColor:'rgb(18, 37, 23)',marginBottom:'20px'}}></div>
-                            <p>
-                              Art is the only way to run away without leaving home.
-                            </p>
-                            <p style={{color:'gray'}}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been...
-                            </p>
-                        </li>
+                        
+                        
                     </ul>
 
                     <center>

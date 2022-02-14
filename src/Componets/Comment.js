@@ -6,24 +6,41 @@ function Comment() {
         <div className={comment.content}>
                 
                 <div className={comment.b2}>
-                    <form className={comment.form}>
-                        <h4>Leave a comment</h4>
-                        <label>Message</label>
-                        <br />
-                        <textarea style={{width:'100%'}} className='form-control'>
+                    <center>
+                        <h1 style={{fontWeight:'10'}}>Our Staff</h1>
+                        <small>The following are our staff member and those who work with us</small>
+                    </center>
+                    <div className={comment.patbox}>
+                        <div>
+                            <img src='https://source.unsplash.com/400x400?potrait' alt='' />
+                            <div>
+                                <center>
+                                <strong>Katenya collins</strong>
+                                <p><small>The CEO,management director, film producer</small></p>
+                                </center>
+                            </div>
+                        </div>
 
-                        </textarea>
-                        <br />
-                        <input type='text' className='form-control' placeholder='Name' />
-                        <br />
-                        <input type='text' className='form-control' placeholder='Email' />
-                        <br />
-                       <div style={{paddingLeft:'30px',display:'flex'}}>
-                       <input type='checkbox' className='form-check-input'/> <small>Subscribe to our newslater</small>
-                       </div>
-                       <br />
-                       <button className='btn btn-info' style={{width:'100%'}}>Submit</button>
-                    </form>
+                        <div>
+                            <img src='https://source.unsplash.com/400x400?selfie' alt='' />
+                            <div>
+                                <center>
+                                <strong>Katenya collins</strong>
+                                <p><small>The CEO,management director, film producer</small></p>
+                                </center>
+                            </div>
+                        </div>
+
+                        <div>
+                            <img src='https://source.unsplash.com/400x400?face' alt='' />
+                            <div>
+                                <center>
+                                <strong>Katenya collins</strong>
+                                <p><small>The CEO,management director, film producer</small></p>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
                 </div>
         </div>
     )

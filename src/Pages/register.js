@@ -23,9 +23,9 @@ function register() {
                        <input type='checkbox' className='form-check-input'/> <small>Accept our <Link to=''>privacy</Link> ,<Link to=''>terms & condition</Link>  </small>
                        </div>
                        <br />
-                       <button className='btn btn-info' style={{width:'100%'}}>Register</button>
+                       <button className='btn btn-info' style={{width:'100%',backgroundColor:'rgb(18, 37, 23)'}}>Register</button>
                        <div style={{marginTop:'10px'}}>
-                           <p>You  have an account <Link to='/register'>Login</Link> </p>
+                           <p>You  have an account <Link to='/signin'>Login</Link> </p>
                        </div>
                     </form>
             </div>

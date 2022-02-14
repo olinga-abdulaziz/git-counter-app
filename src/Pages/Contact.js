@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router , Link , Route ,Routes} from 'react-router-dom';
+import { BrowserRouter as Router , Link , Route ,Routes,Outlet} from 'react-router-dom';
 import './css/contact.css'
 import Aos from 'aos'
 import "aos/dist/aos.css";
@@ -42,7 +42,7 @@ function Contact() {
                        <input type='checkbox' className='form-check-input'/> <small>Subscribe to our newslater</small>
                        </div>
                        <br />
-                       <button className='btn btn-info' style={{width:'100%'}}>Send message</button>
+                       <button className='btn btn-info' style={{width:'100%',backgroundColor:'rgb(18, 37, 23)'}} >Send message</button>
                     </form>
                 </div>
             </div>

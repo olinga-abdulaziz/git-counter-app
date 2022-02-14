@@ -50,8 +50,8 @@ function LatestPost() {
                             <img src='https://source.unsplash.com/400x400?river' alt='' />
                         </li>
                     </ul>
-        </div>   
-            </div>
+         </div>   
+        </div>
     )
 }
 

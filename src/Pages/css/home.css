@@ -44,8 +44,12 @@
     background-position: center;
     background-size: cover;
   }
-  .main {
+  .shaMAin{
+    height: auto;
     width: 100%;
+  }
+  .main {
+    width: auto;
     margin: auto;
     height: auto;
   }

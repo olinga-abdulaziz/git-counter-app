@@ -5,27 +5,26 @@ import kklogo from '../images/kklogo.png'
 
 
 function navbar() {
-
-
     return ( 
-    <body className='navBody'>
-    <nav className='navBar'>
+    <div className='navBar'>
         <div className='barDiv'>
-            <font style={{color:'#fff',fontSize:'30px',fontWeight:'10'}}>KKPHOTOGRAPHY-KE</font>
+            <font>
+            <Link   to='/' style={{color:'#fff',textDecoration:'none',fontSize:'14px'}}>KKPHOTOGRAPHY-KE</Link>
+            </font>
         </div>
         
         <div className='linkDiv'>
             <ul>
-                <li><Link   to='/' style={{color:'#fff',textDecoration:'none'}}>HOME</Link></li>
-                <li><Link   to='/about'  style={{color:'#fff',textDecoration:'none'}}>ABOUT</Link></li>
-                <li><Link   to='/contact'  style={{color:'#fff',textDecoration:'none'}}>CONTACT</Link></li>
-                <li><Link   to='/signin'  style={{color:'#fff',textDecoration:'none'}}>LOGIN</Link></li>
+                <li><Link   to='/' style={{color:'#fff',textDecoration:'none',fontSize:'14px'}}><small>HOME</small></Link></li>
+                <li><Link   to='/about'  style={{color:'#fff',textDecoration:'none',fontSize:'14px'}}><small>ABOUT</small></Link></li>
+                <li><Link   to='/contact'  style={{color:'#fff',textDecoration:'none',fontSize:'14px'}}><small>CONTACT</small></Link></li>
+                <li><Link   to='/signin'  style={{color:'#fff',textDecoration:'none',fontSize:'14px'}}><small>LOGIN</small></Link></li>
             </ul>
-            <div className='btnDiv'>
+            {/* <div className='btnDiv'>
                 <button className='btn btn-success' style={{backgroundColor: 'rgb(18, 37, 23)'}}>ADMIN</button>
-            </div>
+            </div> */}
         </div>
-    </nav> </body> );
+    </div> );
 }
 
 export default navbar;
