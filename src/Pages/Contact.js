@@ -9,7 +9,7 @@ function Contact() {
         <div className='container'>
             <div className='content' data-aos="fade-up">
                 <div className='div1'>
-                    <center><h1>Contact us</h1></center>
+                    <center><h1>Book now</h1></center>
                     <center>
                         <p>Katenya collins is the author and founder of
                      Kkphotography-ke. While he spent the majority of 

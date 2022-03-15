@@ -4,8 +4,7 @@ import LatestPost from '../Componets/LatestPost'
 import LatestNews from '../Componets/LatestNews'
 import Profile from '../Componets/Profile'
 import Comment from '../Componets/Comment'
-import { useLocation } from 'react-router-dom'
-import { useState,useEffect } from 'react'
+
 import Aos from 'aos'
 import "aos/dist/aos.css";
 import { BrowserRouter as Router , Link , Route ,Routes} from 'react-router-dom';
@@ -25,7 +24,7 @@ function Home() {
                 <div className='btnbtnDv'>
                 <div className='btnGroup' data-aos="zoom-out">
                     <Link to='/dashboard' className='btn btn-success btnHome'>GET STARTED</Link>  <br /><br />
-                    <Link to='/contact' className='btn btn-light btnHome' >GET INTOUCH</Link> 
+                    <Link to='/contact' className='btn btn-light btnHome' >BOOK NOW</Link> 
                 </div>
                 </div>
             </article>
