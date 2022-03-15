@@ -27,27 +27,51 @@ function LatestPost() {
                  <ul>
                         <li data-aos="fade-up" data-aos-delay='100'>
                             <img src='https://source.unsplash.com/400x400?mountain' alt='' onContextMenu="return false"/>
+                            <div className='dod'>
+                                <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                            </div>
                         </li>
                         <li data-aos="fade-up" data-aos-delay='100'>
                             <img src='https://source.unsplash.com/400x400?house' alt='' />
+                            <div className='dod'>
+                                <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                            </div>
                         </li>
                         <li data-aos="fade-up" data-aos-delay='100'>
                             <img src='https://source.unsplash.com/400x400?trees' alt='' />
+                            <div className='dod'>
+                                <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                            </div>
                         </li>
                         <li data-aos="fade-up" data-aos-delay='100'>
                             <img src='https://source.unsplash.com/400x400?person' alt='' />
+                            <div className='dod'>
+                                <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                            </div>
                         </li>
                         <li data-aos="fade-up" data-aos-delay='100'>
                             <img src='https://source.unsplash.com/400x400?car' alt='' />
+                            <div className='dod'>
+                                <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                            </div>
                         </li>
                         <li data-aos="fade-up" data-aos-delay='100'>
                             <img src='https://source.unsplash.com/400x400?beach' alt='' />
+                            <div className='dod'>
+                                <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                            </div>
                         </li>
                         <li data-aos="fade-up" data-aos-delay='100'>
                             <img src='https://source.unsplash.com/400x400?bag' alt='' />
+                            <div className='dod'>
+                                <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                            </div>
                         </li>
                         <li data-aos="fade-up" data-aos-delay='100'>
                             <img src='https://source.unsplash.com/400x400?river' alt='' />
+                            <div className='dod'>
+                                <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                            </div>
                         </li>
                     </ul>
          </div>   

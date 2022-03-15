@@ -33,42 +33,72 @@ function FasionD() {
                 <ul className='d2Ul'>
                   <li>
                       <img src='https://source.unsplash.com/400x400?fasion' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?dress' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?minidress' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?botique' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?show' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?liver' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?van' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?love' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?kiss' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?ears' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
                 </ul>
             </div>

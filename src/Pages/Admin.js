@@ -5,6 +5,7 @@ import Aos from 'aos'
 import "aos/dist/aos.css";
 import { BrowserRouter as Router , Link , Route ,Routes} from 'react-router-dom';
 import './css/admin.css'
+import axios from 'axios';
 
 
 function Admin() {
@@ -13,25 +14,18 @@ function Admin() {
     const [price,setPrice]=useState('')
     const [category,setCategory]=useState('')
 
-   function handleFile(event){
-    setImage(event.target.value)
-    }
-
-   function handleCategory(event){
-    setCategory(event.target.value)
-    }
-
-    function handleDescription(event){
-        setDescription(event.target.value) 
-    }
-    function handlePrice(event){
-        setPrice(event.target.value)
-    }
+  
 
     function handleSubmit(event) {
         event.preventDefault()
-        console.log(event.price);
-
+        axios.post('http://localhost:8000/post',{
+            category:category,
+            image:image,
+            description:description,
+            price:price
+        }).then((res)=>{
+            console.log(res);
+        })
     }
     
     return(
@@ -44,15 +38,15 @@ function Admin() {
                         <strong className='badge' style={{color:'#fff'}}>Upload image</strong>
                         <form style={{marginTop:'20px'}} class="formPost" id="formPost" onSubmit={handleSubmit}>
                             <div className='form-group'>
-                                <input type='file' value={image}  name='image' id='image' onChange={handleFile}/>
+                                <input type='file' value={image}  name='image' id='image' onChange={(e)=>setImage(e.target.value)}/>
                             </div>
                             <div className='form-group'>
                                 <label>Description</label>
-                                <input onChange={handleDescription} value={description} type='text'  name='description' id='description' placeholder='Description' className='form-control'/>
+                                <input onChange={(e)=>setDescription(e.target.value)} value={description} type='text'  name='description' id='description' placeholder='Description' className='form-control'/>
                             </div>
                             <div className='form-group'>
                                 <label>Category</label>
-                                <select className='form-control' value={category} name="category" id="category" onChange={handleCategory}>
+                                <select className='form-control' value={category} name="category" id="category" onChange={(e)=>setCategory(e.target.value)}>
                                     <option value="">wedding</option>
                                     <option value="">potrait</option>
                                     <option value="">events</option>
@@ -63,7 +57,7 @@ function Admin() {
                             </div>
                             <div className='form-group'>
                             <label>Price $</label>
-                                <input type='text' value={price}  name='price' id='price' value='0.5' className='form-control' onChange={handlePrice}/>
+                                <input type='text' value={price}  name='price' id='price' value='0.5' className='form-control' onChange={(e)=>setPrice(e.target.value)}/>
                             </div>
                             <div className='form-group'>
                                 <button type='submit' className='btn btn-success form-control' >Upload</button>

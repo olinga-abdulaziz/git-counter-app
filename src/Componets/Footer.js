@@ -4,7 +4,7 @@ import footer from './css/footer.module.css'
 function Footer() {
     return(
       <div className={footer.footer}>
-          <center><small>copyright <span><i class="fa fa-copyright" aria-hidden="true"></i></span> 2022</small></center>
+          <center><small>copyright <span>&copy;</span> 2022</small></center>
       </div>
     )
 }

@@ -33,42 +33,72 @@ function CorporateD() {
                 <ul className='d2Ul'>
                   <li>
                       <img src='https://source.unsplash.com/400x400?computer' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?teacher' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?office' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?field' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?water' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?hospital' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?food' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?bathroom' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?nurse' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
 
                   <li>
                       <img src='https://source.unsplash.com/400x400?doctor' alt='' width={'100%'} height={'100%'}/>
+                      <div className='dod'>
+                          <small style={{color:'yellow'}}>Download</small> <small style={{marginLeft:'30px'}}><i class="fas fa-download" style={{color:'yellow'}}></i></small>
+                      </div>
                   </li>
                 </ul>
             </div>
