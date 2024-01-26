@@ -42,6 +42,7 @@ function Bottom() {
             <li><a href=''>privacy</a></li>
             <li><a href=''>policy</a></li>
             <li><a href=''>terms & condition</a></li>
+            <li>DEVELOPED BY ABDULAZIZI OLINGA SAID</li>
           </ul>
           <br />
           </div>
